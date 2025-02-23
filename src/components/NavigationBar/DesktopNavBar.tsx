@@ -15,7 +15,7 @@ const DesktopNavBar = () => {
   return (
     <div className="hidden md:grid grid-cols-5 py-5">
       <div className="col-span-1">
-        <Link href="/">
+        <Link href="/user/home">
           <p className="text-3xl font-bold text-[#F7F7F7]">Rant</p>
         </Link>
       </div>
